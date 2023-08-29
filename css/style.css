@@ -10,6 +10,9 @@
     background-color: #111010;
 }
 
+p{
+  font-size: 5px;
+}
 
   /* logo*/   
 .logo{
@@ -83,6 +86,7 @@
 
 #borda{
   border-radius: 10px; 
+  font-size: 100%;
 
  }
 .card:hover {
