@@ -163,7 +163,7 @@ hr{
 /*titulo da seção projetos*/
 
 
-/*carousel redondo*/
+/*carousel redondo
 .wrapper{
     display: flex;
     max-width: 1200px;
@@ -377,4 +377,29 @@ element.style {
   border-radius: 6px;
   padding: 3px;
   font-size: 17px;
+}
+
+/* Carrosel*/
+
+.custom-carousel {
+  border-radius: 20px; /* Ajuste o valor conforme necessário para a curvatura desejada */
+  overflow: hidden;
+  width: 359px;
+  height: 371px;
+}
+
+.subtitulo{
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #ffffff;
+}
+.texto_carrossel{
+  color: #ffffff;
+  text-align: left  ;
+  font-size: 20px;
+}
+.texto_carrossel2{
+  color: #ffffff;
+  text-align: right  ;
+  font-size: 20px;
 }
