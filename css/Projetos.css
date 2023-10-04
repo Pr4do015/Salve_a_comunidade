@@ -406,14 +406,14 @@ element.style {
 /* botao de sociais*/
 .social-links,.flex-center {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: end;
 }
 #onecard{
-width: 70%;
+  width: 67%;
 }
 #twocard{
-  width: 130%;
+  width: 67%;
   }
 .social-btn {
   cursor: pointer;
