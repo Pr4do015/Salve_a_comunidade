@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/eventos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <title>Salve</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="npm i bootstrap-icons">
+
+
+</head>
+
+<body class="fundo" style="background-image: url('https://media.discordapp.net/attachments/1138611652695162881/1157834027630338148/foto1.png?ex=651a0c77&is=6518baf7&hm=b41820ca9acfa56c48d738518d752df592925d52550ce2df43b474b577bd5765&=&width=241&height=402');">
+
+    <!-- Navbar parte superior -->
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="logo">
+            <a class="" id="salve">Salve</a>
+        </div>
+        <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse"
+            data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+            aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+            <ul class="navbar-nav ml-auto ">
+                <li class="nav-item" id="sobre">
+                    <a class="nav-link-opacity-10-hover " href="#">Sobre <span class="sr-only">(Página atual)</span></a>
+                </li>
+                <li class="nav-item" id="projetos">
+                    <a class="nav-link-opacity-10-hover" href="#">Projetos</a>
+                </li>
+                <li class="nav-item" id="pessoas">
+                    <a class="nav-link-opacity-10-hover " href="#">Pessoas</a>
+                </li>
+                <li class="nav-item" id="eventos">
+                    <a class="nav-link-opacity-10-hover " href="#">Eventos</a>
+                </li>
+            </ul>
+            <form class="form-inline my-5 my-lg-0">
+                <button class="btn my-2 my-sm-0" type="submit">Faça Parte</button>
+            </form>
+
+        </div>
+    </nav>
+    </div>
+
+    <div class="eventos">
+
+        <h1>Eventos</h1>
+        <hr style="border: 1px solid rgb(0, 194, 97);margin-top: 50px;width: 70%;">
+
+        <div class="container">
+
+            <div class="card1">
+
+                <!-- Button trigger modal -->
+                <a data-toggle="modal" data-target="#exampleModal1">
+                    <!--cards-->
+                    <!--link para abrir o modal-->
+                    <div class="card bg-dark text-white link-with-image">
+                        <img src="https://i.pinimg.com/564x/5a/1c/04/5a1c04f5b03d64f2d02978ad00aab7e4.jpg"
+                            class="card-img" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">TITULO DOS EVENTOS</h5>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title" id="exampleModalLabel">TITULO DO EVENTO</h4>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>TITULO DAS INFORMAÇÕES</p>
+                                <p>INFORMAÇÕES</p>
+
+                                <!--Carousel-->
+                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
+                                        </li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100"
+                                                src="https://i.pinimg.com/564x/be/55/bf/be55bf66ffdc6b70e120b0a10f2df72a.jpg"
+                                                alt="Primeiro Slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100"
+                                                src="https://i.pinimg.com/564x/d1/25/9c/d1259cf8082d21f8aff08a9b030d0cd3.jpg"
+                                                alt="Segundo Slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100"
+                                                src="https://i.pinimg.com/736x/ea/0d/95/ea0d95191217fe2a7845a4f90b689a1e.jpg"
+                                                alt="Terceiro Slide">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                                        data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Anterior</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                                        data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Próximo</span>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">FECHAR</button>
+                                <button type="button" class="btn btn-primary">INSCREVA-SE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="card2">
+
+                <!-- Button trigger modal -->
+                <a data-toggle="modal" data-target="#exampleModal2">
+                    <!--cards-->
+                    <!--link para abrir o modal-->
+                    <div class="card bg-dark text-white link-with-image">
+                        <img src="https://i.pinimg.com/564x/8a/ed/e0/8aede0f7b9164c92d954467e96029516.jpg"
+                            class="card-img" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">TITULO DOS EVENTOS</h5>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>TITULO DAS INFORMAÇÕES</p>
+                                <p>INFORMAÇÕES</p>
+
+
+                                <!--Carousel-->
+                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
+                                        </li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100"
+                                                src="https://i.pinimg.com/564x/be/55/bf/be55bf66ffdc6b70e120b0a10f2df72a.jpg"
+                                                alt="Primeiro Slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100"
+                                                src="https://i.pinimg.com/564x/d1/25/9c/d1259cf8082d21f8aff08a9b030d0cd3.jpg"
+                                                alt="Segundo Slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100"
+                                                src="https://i.pinimg.com/736x/ea/0d/95/ea0d95191217fe2a7845a4f90b689a1e.jpg"
+                                                alt="Terceiro Slide">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                                        data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Anterior</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                                        data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Próximo</span>
+                                    </a>
+                                </div>
+
+
+                    
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="card3">
+
+                <!-- Button trigger modal -->
+                <a data-toggle="modal" data-target="#exampleModal3">
+                    <!--cards-->
+                    <!--link para abrir o modal-->
+                    <div class="card bg-dark text-white link-with-image ">
+                        <img src="https://i.pinimg.com/564x/f4/35/da/f435daf3fa843ab38cb6f8b6822adab3.jpg"
+                            class="card-img" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">TITULO DOS EVENTOS</h5>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>TITULO DAS INFORMAÇÕES</p>
+                                <p>INFORMAÇÕES</p>
+
+
+                                <!--Carousel-->
+                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                      <div class="carousel-item active">
+                                        <img class="d-block w-100" src="https://i.pinimg.com/564x/be/55/bf/be55bf66ffdc6b70e120b0a10f2df72a.jpg" alt="Primeiro Slide">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img class="d-block w-100" src="https://i.pinimg.com/564x/d1/25/9c/d1259cf8082d21f8aff08a9b030d0cd3.jpg" alt="Segundo Slide">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img class="d-block w-100" src="https://i.pinimg.com/736x/ea/0d/95/ea0d95191217fe2a7845a4f90b689a1e.jpg" alt="Terceiro Slide">
+                                      </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="sr-only">Anterior</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="sr-only">Próximo</span>
+                                    </a>
+                                  </div>
+
+
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="card4">
+
+                <!-- Button trigger modal -->
+                <a data-toggle="modal" data-target="#exampleModal4">
+                    <!--cards-->
+                    <!--link para abrir o modal-->
+                    <div class="card bg-dark text-white link-with-image">
+                        <img src="https://i.pinimg.com/564x/6f/24/3e/6f243e6425b9b90cc521db2ceb5dfcbb.jpg"
+                            class="card-img" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">TITULO DOS EVENTOS</h5>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>TITULO DAS INFORMAÇÕES</p>
+                                <p>INFORMAÇÕES</p>
+
+
+                                <!--Carousel-->
+                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                      <div class="carousel-item active">
+                                        <img class="d-block w-100" src="https://i.pinimg.com/564x/be/55/bf/be55bf66ffdc6b70e120b0a10f2df72a.jpg" alt="Primeiro Slide">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img class="d-block w-100" src="https://i.pinimg.com/564x/d1/25/9c/d1259cf8082d21f8aff08a9b030d0cd3.jpg" alt="Segundo Slide">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img class="d-block w-100" src="https://i.pinimg.com/736x/ea/0d/95/ea0d95191217fe2a7845a4f90b689a1e.jpg" alt="Terceiro Slide">
+                                      </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="sr-only">Anterior</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="sr-only">Próximo</span>
+                                    </a>
+                                  </div>
+
+
+                                ...
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+</body>
+
+</html>
