@@ -11,6 +11,7 @@
 }
 
 h1{
+    font-size: 70px!important;
     text-align: center;
     margin: 50px!important;   
     color: aliceblue!important;                       
@@ -107,10 +108,11 @@ a{
     height: 500px;
 }                                              
 .textin p{
+  font-family: 'Times New Roman', Times, serif;
     margin-bottom: 1rem;
     color: #d7d7d7;
     font-size: 20px;
-    text-align: start;
+    text-align: justify;
     margin-top: 1pc;
 }
 
@@ -146,4 +148,8 @@ a{
  .row{
     margin-left: 70px!important;
     margin-right: 10x!important;
+   }
+   .textorodape{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
    }

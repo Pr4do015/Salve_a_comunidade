@@ -26,7 +26,18 @@ p{
   .navbar {
     background-color:#e8e8e8 ;
 }
-
+#sobre:hover{
+  transform: scale(1.1);
+}
+#projetos:hover{
+  transform: scale(1.1);
+}
+#pessoas:hover{
+  transform: scale(1.1);
+}
+#eventos:hover{
+  transform: scale(1.1);
+}
  /* Links navbar*/
 #sobre a{ 
     color: rgb(0, 170, 28);
@@ -372,13 +383,19 @@ element.style {
 
 #meuBotao{
   background-color: orange;
-  color: #d7d7d7;
+  color: #fff;
   border: orange;
-  border-radius: 6px;
+  border-radius: 7px;
   padding: 3px;
-  font-size: 17px;
+  font-size: 20px;
 }
-
+#meuBotao:hover{
+  transform: scale(1.1);
+}
+.btn:focus, .btn:hover {
+  text-decoration: none;
+  transform: scale(1.1);
+}
 /* Carrosel*/
 
 .custom-carousel {
@@ -392,28 +409,33 @@ element.style {
   text-align: center;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: #ffffff;
+  font-family: 'Times New Roman', Times, serif;
 }
 .texto_carrossel{
   color: #ffffff;
-  text-align: left  ;
+  text-align: center  ;
   font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
 }
 .texto_carrossel2{
   color: #ffffff;
-  text-align: right  ;
+  text-align: center  ;
   font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
 }
 /* botao de sociais*/
 .social-links,.flex-center {
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: center;
 }
 #onecard{
-  width: 67%;
+  width: 99%;
 }
 #twocard{
-  width: 67%;
+  width: 99%;
   }
 .social-btn {
   cursor: pointer;
@@ -424,8 +446,8 @@ element.style {
   border-radius: 10px;
   box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
   margin: 5px;
-  transition: 0.3s;
-  justify-content: center;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
 }
 
 .social-btn svg {
@@ -442,14 +464,15 @@ element.style {
 }
 
 .social-btn:hover {
-  width: 150px;
+  transform: scale(1.3);
   border-radius: 5px;
 }
-
+/*
 .social-btn:hover span {
   padding: 2px;
   width: 80px;
 }
+*/
 
 #twitter svg {
   fill: #1da1f2;
