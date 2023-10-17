@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+*{
+    font-family: 'Pattaya';
+    
+}
+
+
+.fundo{
+    background-color: #111010;
+}
+
+h1{
+    text-align: center;
+    margin-top: 120px!important; 
+    color: aliceblue!important;   
+    text-shadow: -6px 1px 0px #2baa31;                      
+    font-size: 5pc !important;
+}
+
+
+p{
+  font-size: 5px;
+}
+
+  /* logo*/   
+.logo{
+  font-size: 2.25rem;
+  text-shadow: -3px 1px 0px #2B4EAA;                   
+  color: rgb(247, 247, 247);
+
+}
+  /* logo*/   
+
+  .navbar {
+    background-color:#252525 ;
+}
+
+ /* Links navbar*/
+
+a{
+  padding: 10px;
+}
+
+#sobre a{ 
+    color: rgb(0, 170, 28);
+    font-size: 155%;
+   
+}
+#projetos a{ 
+    color: rgb(182, 179, 6);
+    font-size: 155%;
+   
+}                                    
+#pessoas a{ 
+    color: rgb(0, 88, 204);
+    font-size: 155%;
+    
+}
+#eventos a{ 
+    color: rgb(59, 59, 59);
+    font-size: 155%;
+   
+}
+
+
+ /* Links navbar*/
+ 
+
+ /* Botão de login*/
+.btn{
+    background-color: #9CDDE1;               
+    border-radius: 9px;
+}
+
+
+/*modals*/
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*cards*/
+
+.card1{
+    width: 100%;
+}
+
+.card2{
+    width: 100%;
+}
+
+.card3{
+    width: 100%;
+}
+
+.card4{
+    width: 100%;
+}
+
+.card-img{
+    height: 20pc;
+}
+
+
+/*tamanho carousel*/
+.carousel-item{
+    height: 25pc;
+}
+
+/*hover das imagem*/
+
+.link-with-image:hover img {
+    /* Adicione os estilos desejados para o hover aqui */
+    opacity: 0.5; /* Exemplo: diminuir a opacidade da imagem */
+}
