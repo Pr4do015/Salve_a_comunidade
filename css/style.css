@@ -15,41 +15,65 @@ p{
 }
 
   /* logo*/   
-.logo{
-  font-size: 2.25rem;
-  text-shadow: -3px 1px 0px #2B4EAA;                   
-  color: rgb(19, 18, 18);
-
-}
+  #salve{
+    font-size: 2.50rem ;
+    text-shadow: -5px 0px 0px #2B4EAA;                 
+    color: rgb(255, 255, 255);
+    text-decoration: none; 
+    text-transform: uppercase;
+  
+  }
   /* logo*/   
 
   .navbar {
-    background-color:#e8e8e8 ;
+    background-color:#202020 ;
+    display: flex;
+    position: fixed;
 }
 
+#sobre:hover{
+  transform: scale(1.1);
+}
+#projetos:hover{
+  transform: scale(1.1);
+}
+#pessoas:hover{
+  transform: scale(1.1);
+}
+#eventos:hover{
+  transform: scale(1.1);
+}
  /* Links navbar*/
 #sobre a{ 
     color: rgb(0, 170, 28);
-    font-size: 155%;
-   
+    font-size: 200%;
+    margin-right: 18px;
+
 }
 #projetos a{ 
     color: rgb(182, 179, 6);
-    font-size: 155%;
-   
+    font-size: 200%;
+    margin-right: 14px;
 }                                    
 #pessoas a{ 
     color: rgb(0, 88, 204);
-    font-size: 155%;
-    
+    font-size: 200%;
+    margin-right: 52px;
 }
 #eventos a{ 
-    color: rgb(59, 59, 59);
-    font-size: 155%;
+    color:rgb(253, 126, 64);
+    font-size: 200%;
+    margin-left: -41%;
    
 }
+@media (max-width: 991px){
 
- /* Links navbar*/
+  #eventos a{ 
+    color:rgb(253, 126, 64);
+    font-size: 200%;
+    margin-left: 0%;  
+}
+}
 
 
  /* Botão de login*/
@@ -319,16 +343,16 @@ background-color: #e8e8e8;
 
 
  /*Rodapé*/
-  footer{
-    background-color: rgb(32, 32, 36); 
-    font-size: 20px;
-    color: #b6b6b6;
+footer{
+    background-color:#202020  ;
+    color: #d7d7d7;
   }
   .textorodape{
-    font-size: 15px;
+    color: #ffffffb4;
+    font-size: 97%;
     font-family: 'Times New Roman', Times, serif;
-    color: #ebebebb6;
   }
+
   .mb-3{
     color: white;
   }
@@ -342,14 +366,16 @@ background-color: #e8e8e8;
   }
   
   #insta{
-    margin: 10px;
+    margin: 11px;
   }
   
   #email{
     margin: 10px;
   }
-  .textorodape{
-    font-size: 15px;
-    font-family: 'Times New Roman', Times, serif;
-   }
+
    /*Rodapé*/
+   .row{
+    margin-left: 70px!important;
+    margin-right: 10x!important;
+   }
+  

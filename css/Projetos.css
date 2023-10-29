@@ -2,7 +2,7 @@
 
 *{
     font-family: 'Pattaya', sans-serif;
-    
+  
 }
 
 
@@ -15,17 +15,22 @@ p{
 }
 
   /* logo*/   
-.logo{
-  font-size: 2.25rem;
-  text-shadow: -3px 1px 0px #2B4EAA;                   
-  color: rgb(19, 18, 18);
+#salve{
+  font-size: 2.50rem ;
+  text-shadow: -5px 0px 0px #2B4EAA;                 
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-transform: uppercase;
 
 }
   /* logo*/   
 
   .navbar {
-    background-color:#e8e8e8 ;
+    background-color:#202020 ;
+    display: flex;
+    position: fixed;
 }
+
 #sobre:hover{
   transform: scale(1.1);
 }
@@ -41,25 +46,34 @@ p{
  /* Links navbar*/
 #sobre a{ 
     color: rgb(0, 170, 28);
-    font-size: 155%;
-   
+    font-size: 200%;
+    margin-right: 18px;
+
 }
 #projetos a{ 
     color: rgb(182, 179, 6);
-    font-size: 155%;
-   
+    font-size: 200%;
+    margin-right: 14px;
 }                                    
 #pessoas a{ 
     color: rgb(0, 88, 204);
-    font-size: 155%;
-    
+    font-size: 200%;
+    margin-right: 52px;
 }
 #eventos a{ 
-    color: rgb(59, 59, 59);
-    font-size: 155%;
+    color:rgb(253, 126, 64);
+    font-size: 200%;
+    margin-left: -41%;
    
 }
+@media (max-width: 991px){
 
+  #eventos a{ 
+    color:rgb(253, 126, 64);
+    font-size: 200%;
+    margin-left: 0%;  
+}
+}
  /* Links navbar*/
 
 
@@ -67,6 +81,7 @@ p{
 .btn{
     background-color: #9CDDE1;               
     border-radius: 9px;
+
 }
  /* Botão de login*/
 
@@ -323,12 +338,13 @@ background-color: #e8e8e8;
 
  /*Rodapé*/
   footer{
-    background-color: rgb(32, 32, 36); 
-    font-size: 20px;
-    color: #b6b6b6;
+    background-color: #202020 ;
+    color: #d7d7d7;
   }
   .textorodape{
-    color: #ebebebb6;
+    color: #ffffffb4;
+    font-size: 97%;
+    font-family: 'Times New Roman', Times, serif;
   }
   .mb-3{
     color: white;
@@ -343,7 +359,7 @@ background-color: #e8e8e8;
   }
   
   #insta{
-    margin: 10px;
+    margin: 11px;
   }
   
   #email{
@@ -416,14 +432,14 @@ element.style {
   text-align: center  ;
   font-size: 20px;
   font-family: 'Times New Roman', Times, serif;
-  font-style: italic;
+ 
 }
 .texto_carrossel2{
   color: #ffffff;
   text-align: center  ;
   font-size: 20px;
   font-family: 'Times New Roman', Times, serif;
-  font-style: italic;
+
 }
 /* botao de sociais*/
 .social-links,.flex-center {
@@ -473,15 +489,9 @@ element.style {
   width: 80px;
 }
 */
+.row{
+  margin-left: 70px!important;
+  margin-right: 10x!important;
+ }
 
-#twitter svg {
-  fill: #1da1f2;
-}
 
-#linkedin svg {
-  fill: #0e76a8;
-}
-
-#github {
-  fill: #333;
-}
