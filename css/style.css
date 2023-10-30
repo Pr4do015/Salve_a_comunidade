@@ -81,6 +81,10 @@ p{
     background-color: #9CDDE1;               
     border-radius: 9px;
 }
+.btn:focus, .btn:hover {
+  text-decoration: none;
+  transform: scale(1.1);
+}
  /* Botão de login*/
 
 
@@ -374,8 +378,4 @@ footer{
   }
 
    /*Rodapé*/
-   .row{
-    margin-left: 70px!important;
-    margin-right: 10x!important;
-   }
-  
+ 

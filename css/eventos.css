@@ -92,7 +92,10 @@ p{
     background-color: #9CDDE1;               
     border-radius: 9px;
 }
-
+.btn:focus, .btn:hover {
+  text-decoration: none;
+  transform: scale(1.1);
+}
 
 /*modals*/
 
