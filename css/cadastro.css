@@ -1,0 +1,234 @@
+@charset "UTF-8";
+
+*{
+    font-family: 'Pattaya', sans-serif;
+}
+
+
+.fundo{
+    background-color: black;
+    font-family: 'Pattaya', sans-serif;
+}
+
+#Nome{
+    width: 100%;
+}
+
+#email{
+display: flex;
+}
+
+#telefone{
+    display: flex;
+}
+.email{
+    width: 500px;
+    
+}
+
+.telefone{
+    width: 360px;
+}
+
+.celular{
+    margin-left: 60px;
+    width: 360px;
+}
+.cpf   {
+    margin-left: 70px;
+    width: 200px;
+}
+
+#CEP{
+    display: flex;
+}
+.cep{
+    width: 230px;
+    color: #fff;
+}
+
+.endereco{
+    margin-left: 105px;
+    width: 450px;
+}
+
+#FOTO{
+    display: flex;
+}
+
+.foto{
+    width: 230px;
+    color: #fff;
+}
+
+.descricao{
+    margin-left: 105px;
+    width: 450px;
+}
+
+  /* logo*/   
+#salve{
+    font-size: 2.50rem ;
+    text-shadow: -5px 0px 0px #2B4EAA;                 
+    color: rgb(255, 255, 255);
+    text-decoration: none; 
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Pattaya', sans-serif;
+  }
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 800px;
+    background-color: black;
+    padding: 45px;
+    border-radius: 5px;
+    position: relative;  
+  }
+
+  .container{
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 40%;
+    width: 900px;
+  }
+  
+  .title {
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: -1px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 36px;
+  }
+  
+
+  
+  .title::before {
+    width: 18px;
+    height: 18px;
+    background-color: royalblue;
+  }
+  
+  .title::after {
+    width: 18px;
+    height: 18px;
+    animation: pulse 1s linear infinite;
+  }
+  
+  .message, .signin {
+    color: rgba(88, 87, 87, 0.822);
+    font-size: 14px;
+  }
+  
+  .signin {
+    text-align: center;
+  }
+  
+  .signin a {
+    color: royalblue;
+  }
+  
+  .signin a:hover {
+    text-decoration: underline royalblue;
+  }
+  
+  .flex {
+    display: block;
+    width: 100%;
+    gap: 6px;
+  }
+  
+  .form label {
+    position: relative;
+  }
+  
+  .form label .input {
+    width: 95%;
+    padding: 10px 10px 30px 10px;
+    height: 1.5px;
+    outline: 0;
+    border: 1px solid white;
+    border-radius: 6px;
+    background-color: black;
+    color: #fff;
+  }
+
+  .form label .input2 {
+    width: 95%;
+    padding: 10px 10px 30px 10px;
+    height: 100px;
+    outline: 0;
+    border: 1px solid white;
+    border-radius: 6px;
+    background-color: black;
+    color: #fff;
+  }
+  
+  .form label .input + span {
+    position: absolute;
+    left: 15px;
+    top: 20px;
+    color: white;
+    font-size: 0.9em;
+    cursor: text;
+    transition: 0.3s ease;
+  }
+
+  .form label .input2 + span {
+    position: absolute;
+    left: 15px;
+    top: 20px;
+    color: white;
+    font-size: 0.9em;
+    cursor: text;
+    transition: 0.3s ease;
+  }
+  
+  .form label .input:placeholder-shown + span {
+    top: 15px;
+    font-size: 0.9em;
+    color: #fff;
+  }
+  
+  .form label .input:focus + span,.form label .input:valid + span {
+    top: 30px;
+    font-size: 0.7em;
+    font-weight: 600;
+  }
+  
+  .form label .input:valid + span {
+    color: green;
+  }
+  
+  .submit {
+    border: none;
+    outline: none;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    border: 1px solid white;
+    font-size: 16px;
+    transform: .3s ease;
+  }
+  
+  .submit:hover {
+    background-color: rgb(56, 90, 194);
+  }
+  
+  @keyframes pulse {
+    from {
+      transform: scale(0.9);
+      opacity: 1;
+    }
+  
+    to {
+      transform: scale(1.8);
+      opacity: 0;
+    }
+  }
