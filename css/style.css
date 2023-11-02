@@ -343,8 +343,32 @@ hr{
 background-color: #e8e8e8;
   }
 /*cards*/
+.texto-sobre-imagem {
+  position: absolute;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 10px;
+  top: 80%;
+  left: 38%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding: 10px;
+}
 
-
+.imagem{
+  background-color: antiquewhite;
+  width: 290px;                     
+}      
+.imagem img{
+  width: 100%;
+  height: 500px;
+   
+    transform: scale(1.05);
+  
+}
+.imagem-container {
+  position: relative;
+  margin-bottom: 70px; /* Espaço vertical entre as imagens */
+}
 
  /*Rodapé*/
 footer{

@@ -1,13 +1,8 @@
 @charset "UTF-8";
 
-*{
-    font-family: 'Pattaya', sans-serif;
-}
-
-
 .fundo{
-    background-color: black;
-    font-family: 'Pattaya', sans-serif;
+    background-color: #111010;
+
 }
 
 #Nome{
@@ -67,11 +62,10 @@ display: flex;
 }
 
   /* logo*/   
-#salve{
+.salve{
     font-size: 2.50rem ;
     text-shadow: -5px 0px 0px #2B4EAA;                 
     color: rgb(255, 255, 255);
-    text-decoration: none; 
     text-transform: uppercase;
     text-align: center;
     font-family: 'Pattaya', sans-serif;
@@ -82,7 +76,7 @@ display: flex;
     flex-direction: column;
     gap: 20px;
     max-width: 800px;
-    background-color: black;
+    background-color: #111010;
     padding: 45px;
     border-radius: 5px;
     position: relative;  
