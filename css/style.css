@@ -142,6 +142,9 @@ hr{
     margin: 30px;                          
     color: white;
 }
+.about{
+  align-items: center;
+}
 /*titulo da seção sobre*/
 
 
@@ -184,8 +187,13 @@ hr{
     margin-bottom: 1rem;
     color: #d7d7d7;
     font-size: 20px;
-    text-align: center;
-    margin-top: 1pc;
+    text-align:left;
+    margin-top: 0pc;
+    margin-left: 0%;
+
+}
+#foto1{
+  margin-left: -12%;
 }
 /*resumo da seção sobre*/
 
@@ -339,13 +347,11 @@ hr{
   .name:hover {
     cursor: pointer;
   }
-  #pessoa1, #pessoa2, #pessoa3, #pessoa4{
-background-color: #e8e8e8;
-  }
+
 /*cards*/
 .texto-sobre-imagem {
   position: absolute;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 10px;
   top: 80%;
   left: 38%;
@@ -361,10 +367,22 @@ background-color: #e8e8e8;
 .imagem img{
     width: 100%;
     height: 500px;
-     
       transform: scale(1.05);
     
 }
+.imagem-container {
+  position: relative;
+  margin-bottom: 70px; /* Espaço vertical entre as imagens */
+ 
+}
+
+#pessoa{
+  cursor: pointer;
+}
+.imagem-container:hover {
+  transform: scale(1.05);
+}
+/*cards*/
 
  /*Rodapé*/
 footer{

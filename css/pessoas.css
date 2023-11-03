@@ -101,13 +101,14 @@ h1{
     max-width: 100%;
     margin-left: auto; 
     margin-right: 450px;
+   
  
-}
-/*conteudo*/
 
+}
 .imagem-container {
   position: relative;
   margin-bottom: 70px; /* Espaço vertical entre as imagens */
+ 
 }
 
 .texto-sobre-imagem {
@@ -119,6 +120,7 @@ h1{
   transform: translate(-50%, -50%);
   color: white;
   padding: 10px;
+  
 }
 /*imagem da seção sobre*/
 

@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+    background-color: #111010;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+h1{
+    font-family:'Pattaya', sans-serif;
+    font-size: 4rem ;
+    text-shadow: -7px 0px 0px #2B4EAA;                 
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;}
+
+h2{
+    color: white;
+}
+
+label{
+    
+    color: white;
+}
+#btn{
+    background-color: #2B4EAA;               
+    border-radius: 9px;
+    color: aliceblue;
+}
+#btn:focus, #btn:hover {
+  text-decoration: none;
+  transform: scale(1.1);
+}
