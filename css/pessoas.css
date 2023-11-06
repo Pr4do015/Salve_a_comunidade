@@ -108,7 +108,11 @@ h1{
 .imagem-container {
   position: relative;
   margin-bottom: 70px; /* Espaço vertical entre as imagens */
+ cursor: pointer;
  
+}
+.imagem-container:hover{
+  transform: scale(1.05);
 }
 
 .texto-sobre-imagem {
