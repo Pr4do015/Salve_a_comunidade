@@ -373,10 +373,10 @@ background-color: #e8e8e8;
    /* Banner de imagem */
    .banner-principal {
       color: #fff;
-      position: absolute;
       font-size: 4rem;
       margin-left: 170px;
       text-align: left;
+      width: 100%;
    }
 
 
