@@ -15,8 +15,7 @@
 }
 
 h1{
-    text-align: center;
-    margin: 50px!important;   
+    text-align: center; 
     color: aliceblue!important;                       
 }
 
@@ -130,7 +129,7 @@ h1{
 
 .pessoas{
   font-family: pattaya;
-  font-size: 60px;
+  font-size: 80px;
   margin-bottom: 0px; 
 }
 
