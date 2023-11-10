@@ -211,6 +211,11 @@ hr{
 
 
 /*carousel redondo*/
+#imgcarrosel:hover{
+  transform: scale(1.1);
+}
+
+
 .wrapper{
     display: flex;
     max-width: 1200px;

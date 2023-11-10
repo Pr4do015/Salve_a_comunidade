@@ -17,10 +17,16 @@
   color: rgb(255, 255, 255);
   text-decoration: none;
   text-transform: uppercase;
-  margin-left: 40%;
+  margin-left: 35%;
   text-align: center;
 
 }
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1064px;
+  }
+}
+
 #inputname{
   color: white;
   background-color: #111010;
@@ -65,7 +71,7 @@
 #foto{
   width: 200px;
   height: 150px;
-  border: solid  1px white;
+ /* border: solid  1px white;*/
   border-radius: 10px;
  
 }
@@ -88,7 +94,7 @@
     padding: 45px;
     border-radius: 5px;
     position: relative;  
-    margin-left: 5%;
+    margin-left: 9%;
   }
 
   .container{
