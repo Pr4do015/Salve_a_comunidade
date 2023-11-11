@@ -397,14 +397,16 @@ element.style {
   transform: translate(-50%, -50%);
   /* text-align: left; */
 }
-
+#facaparte{
+color: #ffffff;
+}
 #meuBotao{
   background-color: orange;
   color: #fff;
   border: orange;
   border-radius: 7px;
-  padding: 3px;
-  font-size: 20px;
+ /* padding: 3px;*/
+  font-size: 26px;
 }
 #meuBotao:hover{
   transform: scale(1.1);

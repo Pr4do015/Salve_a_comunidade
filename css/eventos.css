@@ -153,3 +153,38 @@ p{
     /* Adicione os estilos desejados para o hover aqui */
     opacity: 0.5; /* Exemplo: diminuir a opacidade da imagem */
 }
+/*Rodapé*/
+footer{
+  background-color: #202020 ;
+  color: #d7d7d7;
+}
+.textorodape{
+  color: #ffffffb4;
+  font-size: 97%;
+  font-family: 'Times New Roman', Times, serif;
+}
+.mb-3{
+  color: white;
+}
+.mb-1{
+  color: white;
+}
+
+#zap{
+  margin: 10px;
+}
+
+#insta{
+  margin: 11px;
+}
+
+#email{
+  margin: 10px;
+}
+#barra{
+  width: 100%;
+}
+#titlesobre{
+  margin-right: 75%;
+}
+ /*Rodapé*/
