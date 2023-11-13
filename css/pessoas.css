@@ -2,6 +2,7 @@
 
 *{
     font-family: 'Pattaya', sans-serif;
+    transition: 408ms;
    
 }
 @media (max-width: 767px) {
@@ -129,8 +130,8 @@ h1{
 
 .pessoas{
   font-family: pattaya;
-  font-size: 80px;
-  margin-bottom: 0px; 
+  font-size: 69px;
+  margin-bottom:  41px; 
 }
 
 .imagem{

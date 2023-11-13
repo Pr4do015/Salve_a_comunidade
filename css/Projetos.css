@@ -2,7 +2,7 @@
 
 *{
     font-family: 'Pattaya', sans-serif;
-  
+    transition: 390ms;
 }
 
 
@@ -422,6 +422,11 @@ color: #ffffff;
   overflow: hidden;
   width: 359px;
   height: 371px;
+  cursor: pointer;
+  margin-bottom: 5%;
+}
+.custom-carousel:hover{
+  transform: scale(1.1);
 }
 
 .subtitulo{

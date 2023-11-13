@@ -2,7 +2,7 @@
 
 *{
     font-family: 'Pattaya', sans-serif;
-    
+    transition: 408ms;
 }
 
 .about{
@@ -136,16 +136,24 @@ p{
     
 }                                          
 .imagem img{
-    width: 100%;
-    height: 500px;
-      transform: scale(1.05);
+  width: 100%;
+  height: 500px;
+  cursor: pointer;
+  border: 17px solid rgb(245, 245, 245);
+  border-radius: 0px;
     
+}
+.imagem:hover{
+  transform: scale(1.05);
 }
 /*imagem da seção sobre*/
 
 
 
 /*resumo da seção sobre*/
+.subtitulo{
+  color: white;
+}
 .textin{
     background-color: #111010;
     width: 350px;
@@ -155,7 +163,7 @@ p{
   font-family: 'Times New Roman', Times, serif;
     margin-bottom: 1rem;
     color: #d7d7d7;
-    font-size: 20px;
+    font-size: 19px;
     text-align: justify;
     margin-top: 1pc;
 }

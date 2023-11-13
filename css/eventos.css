@@ -2,7 +2,7 @@
 
 *{
     font-family: 'Pattaya';
-    
+    transition: 408ms;
 }
 
 
@@ -135,12 +135,16 @@ p{
 
 .card4{
     width: 100%;
+    margin-bottom: 10%;
 }
 
 .card-img{
     height: 20pc;
 }
 
+.card:hover{
+  transform: scale(1.1);
+}
 
 /*tamanho carousel*/
 .carousel-item{
