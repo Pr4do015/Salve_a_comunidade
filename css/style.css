@@ -124,8 +124,27 @@ p{
 
 #texto{
   text-align: center;
-  font-size: 307%;
+  font-size: 380%;
 }
+
+@media screen and (max-width: 955px) {
+  #texto{
+    font-size: 250%;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  #texto{
+    font-size: 210%;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  #texto{
+    font-size: 200%;
+  }
+}
+
 /* card, texto transparente*/ 
 
 /*linha*/
@@ -164,6 +183,7 @@ hr{
     margin-bottom: 5pc;
     /*margin-right: 15%;*/
     display:flex;
+    justify-content: center;
     max-width: 100%; /* Ensure the image is responsive */
         height: auto;
         text-align: right;
@@ -193,6 +213,14 @@ hr{
 }
 #foto1{
   margin-left: 0%;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 1200px) {
+  .about .container{
+    max-width: 70%!important;
+  }
 }
 /*resumo da seção sobre*/
 
