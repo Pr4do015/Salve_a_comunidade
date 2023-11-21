@@ -434,6 +434,13 @@ color: #ffffff;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: #ffffff;
   font-family: 'Times New Roman', Times, serif;
+  text-decoration: none;
+}
+#titulo2{
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #ffffff;
+  font-family: 'Times New Roman', Times, serif;
 }
 .texto_carrossel{
   color: #ffffff;
