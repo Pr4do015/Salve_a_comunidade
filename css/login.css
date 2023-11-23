@@ -1,0 +1,40 @@
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    width: 400px; /* Largura da div */
+    height: 500px;
+    margin: 0 auto; /* Margem automática horizontal */
+    text-align: center; /* Alinhamento de texto central */
+    margin-top: 150px;
+    border: 1px solid whitesmoke;
+    border-radius: 15px;
+    color: whitesmoke;
+  align-items: center;
+  /*height: 100vh;  Isso garante que o contêiner esteja centralizado verticalmente na tela */
+  }
+  .form-container a{
+    color: whitesmoke;
+  }
+  
+  body{
+    background-color: black;
+  }
+  
+  #button1{
+    border-radius: 4px;
+    width: 150px;
+  }
+  
+  h1{
+    font-family: 'Pattaya';
+  }
+  .logo{
+    font-size: 2.25rem;
+    text-shadow: -3px 1px 0px #2B4EAA;                   
+    color: rgb(19, 18, 18);
+  
+  }
+  .botao1{
+    width: 10px;
+  }
