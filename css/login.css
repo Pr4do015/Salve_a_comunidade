@@ -34,6 +34,10 @@
     color: rgb(19, 18, 18);
   
   }
+a:link{
+    text-decoration: none;
+}
+
   .botao1{
     width: 10px;
   }

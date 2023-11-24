@@ -70,7 +70,9 @@
     <div class="form-container"> 
 <!-- Login form -->
             <div class="col-md-6">
-                  <a class="logo">SALVE</a>
+              <div class="logo">
+                  <a href="index.html">SALVE</a>
+              </div><br>
                   <hr style="border: 1px solid rgb(204, 201, 0); margin-top: -10px; width: 300px;">
                     <div class="formy well">
                                   <div class="form" >
