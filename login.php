@@ -19,7 +19,6 @@
     <link href="css/login.css" rel="stylesheet">
     
 
-
 	</head>
 	
 	<body>
@@ -71,7 +70,7 @@
     <div class="form-container"> 
 <!-- Login form -->
             <div class="col-md-6">
-                  <a class="logo">SALVE<br><br></a>
+                  <a class="logo">SALVE</a>
                   <hr style="border: 1px solid rgb(204, 201, 0); margin-top: -10px; width: 300px;">
                     <div class="formy well">
                                   <div class="form" >
@@ -112,7 +111,7 @@
                                           </div>
                                       </form>
                                       
-                                            <a href="register.php">Primeiro acesso</a><br><br>
+                                            <a href="register.php">Se Cadastrar</a><br><br>
                                             <a href="esqueciaSenha.html">Esqueci a senha</a><br>
                                     </div> 
                                   </div>
