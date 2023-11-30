@@ -17,7 +17,8 @@ h1{
     font-size: 70px!important;
     text-align: center;
     margin: 50px!important;   
-    color: aliceblue!important;                       
+    color: aliceblue!important;       
+    font-family: 'pattaya'!important;             
 }
 
 
@@ -207,4 +208,11 @@ p{
 }
 
  /*Rodapé*/
+
+ .row{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: 0!important;
+ }
 

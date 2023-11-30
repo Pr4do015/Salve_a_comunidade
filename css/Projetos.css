@@ -501,29 +501,14 @@ color: #ffffff;
 /*
 fotos dentro do card
 */
-#imgkarate{
-   height: 382px;
-  width: 551px
-}
+
 
 #imgkarate1{
   height: 390px;
   width: 560px
 }
 
-#imgkarate2{
-  height: 390px;
-  width: 560px
-}
 #imgjiu1{
-  height: 390px;
-  width: 560px
-}
-#imgjiu2{
-  height: 390px;
-  width: 560px
-}
-#imgjiu3{
   height: 390px;
   width: 560px
 }
@@ -531,11 +516,7 @@ fotos dentro do card
   height: 390px;
   width: 560px
 }
-#imgpastoral2{
-  height: 390px;
-  width: 560px
-}
-#imgpastoral3{
+#afi1{
   height: 390px;
   width: 560px
 }

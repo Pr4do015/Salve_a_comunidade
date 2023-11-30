@@ -5,7 +5,7 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 	<head>
 		<meta charset="utf-8">
 		<!-- Title here -->
@@ -17,7 +17,9 @@
 		
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/login.css" rel="stylesheet">
-    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
 
 	</head>
 	
@@ -45,7 +47,7 @@
                     $_SESSION['dados_usuario'] = $row_usuario;
 
                     echo "<script> alert('Login realizado com sucesso')
-                    window.location.href = 'eventos.html'; </script>"; 
+                    window.location.href = 'index.php'; </script>"; 
                    
                   }
                   
@@ -70,10 +72,10 @@
     <div class="form-container"> 
 <!-- Login form -->
             <div class="col-md-6">
-              <div class="logo">
-                  <a href="index.html">SALVE</a>
+            <div class="logo" >
+                  <a href="index.php" id="salve">salve</a>
               </div><br>
-                  <hr style="border: 1px solid rgb(204, 201, 0); margin-top: -10px; width: 300px;">
+                  <hr style="border: 1px solid #2B4EAA; margin-top: -10px; width: 300px;">
                     <div class="formy well">
                                   <div class="form" >
                                       <!-- Login  form (not working)-->
@@ -106,7 +108,7 @@
                                           <!-- Buttons -->
                                           <div class="form-group">
                                              <!-- Buttons -->
-											 <div class="col-md-8 col-md-offset-3" action="index.html">
+											 <div class="col-md-8 col-md-offset-3" action="index.php">
 												<button type="submit" value="acessar" name="SendLogin" class="btn btn-danger" id="button1">Login</button>
 											 </div><br>
                        

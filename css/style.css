@@ -124,25 +124,7 @@ p{
 
 #texto{
   text-align: center;
-  font-size: 380%;
-}
-
-@media screen and (max-width: 955px) {
-  #texto{
-    font-size: 250%;
-  }
-}
-
-@media screen and (max-width: 470px) {
-  #texto{
-    font-size: 210%;
-  }
-}
-
-@media screen and (max-width: 370px) {
-  #texto{
-    font-size: 200%;
-  }
+  font-size: 295%;
 }
 
 /* card, texto transparente*/ 
@@ -452,4 +434,20 @@ footer{
   }
 
    /*Rodapé*/
- 
+   #imgkarate1{
+    height: 390px;
+    width: 500px;
+  }
+  
+  #imgjiu1{
+    height: 390px;
+    width: 500px;
+  }
+  #imgpastoral1{
+    height: 390px;
+    width: 500px;
+  }
+  #afi1{
+    height: 390px;
+    width: 500px;
+  }
