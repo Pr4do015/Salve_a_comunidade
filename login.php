@@ -9,7 +9,7 @@
 	<head>
 		<meta charset="utf-8">
 		<!-- Title here -->
-		<title>Login - MacKart</title>
+		<title>Login</title>
 			<!-- Description, Keywords and Author -->
 			<meta name="description" content="Your description">
 		<meta name="keywords" content="Your,Keywords">
@@ -36,7 +36,9 @@
           $result_usuario = $conn->prepare($query_usuarios);
           $result_usuario->bindParam(':email',$dados['email'], PDO::PARAM_STR);
           $result_usuario->execute();
-
+          if(!isset($_SESSION)){
+            session_start();
+        }
           
             if(($result_usuario) AND ($result_usuario->rowCount() !=0)){
                $row_usuario = $result_usuario-> fetch(PDO::FETCH_ASSOC);
@@ -93,7 +95,7 @@
                                           <div class="form-group">
                                             <label class="control-label col-md-3" for="password2">Senha</label>
                                             <div class="controls col-md-8">
-                                              <input type="password" name="senha_user" class="form-control" id="password2" placeholder="*****">
+                                              <input type="password" name="senha_user" class="form-control" id="password2" placeholder="**********">
                                             </div>
                                           </div><br>
                                           <!-- Checkbox -->
