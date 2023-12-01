@@ -1,0 +1,15 @@
+.fundo{
+    background-color: #111010;
+}
+#salve{
+    font-size: 2.50rem ;
+    text-shadow: -5px 0px 0px #2B4EAA;                 
+    color: rgb(255, 255, 255);
+    text-decoration: none; 
+    text-transform: uppercase;
+  
+  }
+
+h1{
+    color: white;
+}

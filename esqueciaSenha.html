@@ -1,39 +1,36 @@
 <!DOCTYPE html>
-<meta charset="UTF-8">
-<html>
+<html lang="pt-br">
 <head>
-    <title>Esqueci a Senha</title>
+    <meta charset="UTF-8">
+    <title>Redefinir Senha</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/esqueciasenha.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    
-    
 </head>
-                <body>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <h1>SALVE</h1>  
-                    <button class="botaohome" > 
-                    <a href="index.php" id="voltar">
-                        <span class="material-symbols-outlined">
-                            keyboard_backspace
-                            </span>
-                    </a>
-                    </button>
-                    <br>
-                    <br>
-                    <h2>Digite o E-mail</h2>
-                    <hr style="border: 1px solid #2B4EAA;width: 30%;">
-                    <br>
-                    
-                    <form action="esqueciASenha.cs" method="post">
-                    
-                        <input type="email" id="email" name="email" required><br><br>
-                        
-                        <input type="submit" value="Redefinir de Senha" id="btn">
-                    </form>
+<body>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1>SALVE</h1>  
+    <button class="botaohome"> 
+        <a href="index.php" id="voltar">
+            <span class="material-symbols-outlined">
+                keyboard_backspace
+            </span>
+        </a>
+    </button>
+    <br>
+    <br>
+    <h2>Digite o E-mail</h2>
+    <hr style="border: 1px solid #2B4EAA;width: 30%;">
+    <br>
+
+    <!-- Adicione o método e a ação ao formulário -->
+    <form method="post" action="processa_redefinicao_senha.php">
+        <input type="email" id="email" name="email" required><br><br>
+        <input type="submit" value="RedefinirSenha" id="btn">
+    </form>
 </body>
 </html>

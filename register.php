@@ -56,7 +56,7 @@ require "conexao.php"
     
       $resultado_usuario = $conn->query($result_usuario);
            echo "<script> alert('Registro realizado com sucesso');
-           window.location.href = 'index.php'; </script>";   
+           window.location.href = 'login.php'; </script>";   
     }
     ?>  
     

@@ -48,11 +48,14 @@
 }
 #inputEstado{
   background-color: #111010;
+  color: #fff;
 }
 #inputCEP{
   background-color: #111010;
 }
-
+#inputname_projeto{
+  background-color: #111010;
+}
 #cadastro{
   background-color: #111010;
   border: 1px solid white;

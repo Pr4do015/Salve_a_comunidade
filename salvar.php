@@ -14,7 +14,7 @@ if ($conn->connect_error) {
 
 // Obter dados do formulário
 $nome = $_POST['inputname'];
-$email = $_POST['inputEmail'];
+$email = $_POST['inputEmail4'];
 $endereco = $_POST['inputAddress'];
 $cidade = $_POST['inputCity'];
 $estado = $_POST['inputEstado'];

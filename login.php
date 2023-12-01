@@ -25,6 +25,17 @@
 	
 	<body>
   <?php
+  
+if (!isset($_SESSION)) {
+  session_start();
+}
+
+// Verificar se o usuário já está logado
+if (isset($_SESSION['dados_usuario'])) {
+  // Se já estiver logado, redirecione para a página desejada
+  header("Location: paginalogada.php");
+  exit();
+}
         $dados = filter_input_array(INPUT_POST, FILTER_DEFAULT);
        
        if(!empty($dados['SendLogin'])){
