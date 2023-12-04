@@ -74,7 +74,8 @@
                                 <div class= "d-flex justify-content-center ;">
                                     <div class="card text-bg-dark" id="borda">
                                         <div class="card-body" style="overflow: hidden;">
-                                          <p class="card-text" id="texto">Inspirando sonhos, o projeto SALVE é a força que impulsiona jovens das periferias a conquistarem seus objetivos, criando oportunidades e quebrando barreiras para um futuro de sucesso e realizações.</p>
+                                          <p class="card-text" id="texto">
+Inspiração para Jovens nas Periferias Alcançarem Objetivos e Quebrarem Barreiras.</p>
                                         </div>
                                       </div>
                                   </div>
@@ -159,7 +160,7 @@
 </div>
 
 <!--Termino Sessão projetos--> 
-                                    <hr style="border: 1px solid rgb(1, 146, 38);margin-top: 50px;">
+<hr style="border: 1px solid rgb(1, 146, 38);margin-top: 50px;">
                                     <div class="pessoas">
                                         <h1>PARTICIPANTES DO SALVE</h1>
                                         <br>
@@ -167,34 +168,37 @@
                                           <div class="row">
                                               <div class="col-md-4 col-12" id="pessoa">
                                                   <div class="imagem-container"><!-- Imagens com texto -->
+                                                  <a href="https://www.instagram.com/___pradoo/"target="_blank">
                                                       <img src="img/Gabriel.png" class="img-fluid" data-toggle="modal" data-target="#myModal">
                                                       </a>
                                                       <div class="texto-sobre-imagem">
-                                                          <h6>Gabriel Prado</h6><br>
-                                                          Desenvolvedor C#<br>
-                                                          Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit. Nulla nulla nibh, dictum at eros ac.
+                                                          <h4>Gabriel Prado</h4><br>
+                                                          Desenvolvedor Back-end<br>
+                                                          20 anos<br>Responsável no desenvolvimento do Back, e criação do banco de dados.
                                                       </div>
                                                   </div>
                                               </div>
                                               <div class="col-md-4 col-12" id="pessoa">
-                                                  <div class="imagem-container">
-                                                      <img src="img/kuan.jpeg" class="img-fluid" data-toggle="modal" id="imgpessoas" data-target="#myModal">
+                                                  <div class="imagem-container"> 
+                                                    <a href="https://www.instagram.com/k4uand/"target="_blank">
+                                                      <img src="img/kauan1.jpeg" class="img-fluid" data-toggle="modal" id="imgpessoas" data-target="#myModal">
                                                       </a>
                                                       <div class="texto-sobre-imagem">
-                                                        <h6>Kauan Davi</h6><br>
-                                                        Desenvolvedor C#<br>
-                                                        Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit. Nulla nulla nibh, dictum at eros ac.
+                                                        <h4>Kauan Davi</h4><br>
+                                                        Desenvolvedor Front-end<br>
+                                                        20 anos<br>Responsável na documentação do projeto, e desenvolvimento Front/Design.
                                                       </div>
                                                   </div>
                                               </div>
                                               <div class="col-md-4 col-12" id="pessoa">
                                                   <div class="imagem-container">
-                                                      <img src="img/Matheus.png" class="img-fluid" data-toggle="modal" data-target="#myModal">
+                                                  <a href="https://www.instagram.com/m4thz._/"target="_blank">
+                                                      <img src="img/Matheus.png" class="img-fluid" data-toggle="modal" id="imgpessoas"data-target="#myModal">
                                                     </a>
                                                       <div class="texto-sobre-imagem">
-                                                        <h6>Matheus Gomes</h6><br>
-                                                        Desenvolvedor C#<br>
-                                                        Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit. Nulla nulla nibh, dictum at eros ac.
+                                                        <h4>Matheus Gomes</h4><br>
+                                                        Desenvolvedor Front-end/Documentação<br>
+                                                        17 anos<br> Responsável na documentação do projeto, e desenvolvimento Front/Design.
                                                       </div>
                                                   </div>
                                               </div>
@@ -204,60 +208,47 @@
                                           <div class="row">
                                               <div class="col-md-4 col-12">
                                                   <div class="imagem-container">
-                                                    <img src="img/kaue2.jpeg" class="img-fluid" data-toggle="modal"id="imgpessoas" data-target="#myModal">
+                                                  <a href="https://www.instagram.com/kauezaun/"target="_blank">
+                                                    <img src="img/kaue01.jpeg" class="img-fluid" data-toggle="modal"id="imgpessoas" data-target="#myModal">
+                                                    </a>
                                                       <div class="texto-sobre-imagem">
-                                                        <h6>Kaue Guedes</h6><br>
-                                                        Desenvolvedor C#<br>
-                                                        Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit. Nulla nulla nibh, dictum at eros ac.
+                                                        <h4>Kaue Guedes</h4><br>
+                                                        Merketing/Documentação<br>
+                                                        18 anos <br> Responsável na parte de divulgação e documentação do projeto.
                                                       </div>
                                                   </div>
                                               </div>
                                           
                                               <div class="col-md-4 col-12">
                                                   <div class="imagem-container">
-                                                      <img src="img/Felipe.png" class="img-fluid" data-toggle="modal" data-target="#myModal">
+                                                  <a href="https://www.instagram.com/_feeeeeh.guima/"target="_blank">
+                                                      <img src="img/Felipe.png" class="img-fluid" data-toggle="modal"id="imgpessoas" data-target="#myModal">
+                                                        </a>
                                                       <div class="texto-sobre-imagem">
-                                                        <h6>Felipe Farias</h6><br>
-                                                        Desenvolvedor C#<br>
-                                                        Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit. Nulla nulla nibh, dictum at eros ac.
+                                                        <h4>Felipe Farias</h4><br>
+                                                        Documentação<br>
+                                                        18 anos<br> Responsável na documentação do projeto.
                                                       </div>
                                                     </a> 
                                                   </div>
                                               </div>
                                             
                                               <div class="col-md-4 col-12">
-                                                  <div class="imagem-container">
-                                                      <img src="img/Lauren.png" class="img-fluid" data-toggle="modal" data-target="#myModal">
+                                                  <div class="imagem-container"> 
+                                                    <a href="https://www.instagram.com/llaurenc._/"target="_blank">
+                                                      <img src="img/Lauren.png" class="img-fluid" data-toggle="modal"id="imgpessoas" data-target="#myModal">
+                                                      </a>
                                                       <div class="texto-sobre-imagem">
-                                                        <h6>Lauren Caroline</h6><br>
-                                                        Desenvolvedor C#<br>
-                                                        Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit. Nulla nulla nibh, dictum at eros ac.
+                                                        <h4>Lauren Caroline</h4><br>
+                                                       Documentação<br>
+                                                       18 anos<br> Responsável na documentação do projeto.
                                                       </div>
                                                   </div>
                                               </div>
                                           </div>
                                       </div>
-                                                                    <!--modal-->
-                    <div class="modal fade" id="myModal">
-                      <div class="modal-dialog">
-                        <div class="modal-content">
-                          <!-- Modal Header -->
-                          <div class="modal-header">
-                            <h4 class="modal-title">Título do Modal</h4>
-                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                          </div>
-                          <!-- Modal body -->
-                          <div class="modal-body">
-                            texto
-                          </div>
-                          <!-- Modal footer -->
-                          <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  <!--modal-->
+      
+                    
 <!--Termino Sessão pessoas--> 
 
 
@@ -266,12 +257,11 @@
                                   <div class="container p-4">
                                     <div class="row">
                                       <div class="col-lg-6 col-md-12 mb-4">
-                                        <h5 class="mb-3" style="letter-spacing: 2px;">Sobre o Salve</h5>
+                                        <h5 class="mb-3" style="letter-spacing: 2px;">Contato/Comunicação</h5>
                                         <p class="textorodape">
                                         
-                                          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-                                          molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam
-                                          voluptatem veniam, est atque cumque eum delectus sint!
+                                        Venha fazer parte do Projeto de TCC "SALVE A COMUNIDADE", publicar seus projetos, eventos e ideias.
+                                    Entre em contato conosco...
                                         </p>
                                       </div>
                                   
@@ -299,7 +289,7 @@
                               
                                           </div>
                               
-                                          <div id="email"> <a href="http://www.gmail.com" target="_blank">
+                                          <div id="email"> <a href="mailto:salveacomunidade015@gmail.com" text target="_blank">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
                                                   <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
                                                 </svg>
@@ -311,8 +301,8 @@
                                     </div>
                                   </div>
                                   <div class="text-center p-3" style="background-color: #111010;">
-                                    © 2023 Copyright:
-                                    <a class="text-white" href="">SALVE A COMUNIDADE</a>
+                                  Responda nosso questionário:
+                                        <a class="text-white" href="https://docs.google.com/forms/d/e/1FAIpQLSc9F3XWRaC_8aOsYIx_QkLZkjNMwdddgCwqF5Qnje_ypOZKbQ/viewform">SALVE A COMUNIDADE</a>
                                   </div>
                                 </footer>
 <!--Rodapé-->

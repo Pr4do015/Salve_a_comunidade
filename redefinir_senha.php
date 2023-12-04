@@ -1,5 +1,5 @@
 <?php
-include "conexao.php";
+require "conexao.php";
 
 if ($_SERVER["REQUEST_METHOD"] == "GET" && isset($_GET['email'])) {
     $email = filter_input(INPUT_GET, 'email', FILTER_SANITIZE_EMAIL);
@@ -37,13 +37,19 @@ if ($_SERVER["REQUEST_METHOD"] == "GET" && isset($_GET['email'])) {
 <head>
     <meta charset="UTF-8">
     <title>Redefinir Senha</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/redefinir.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
-    <h2>Redefinir Senha para <?php echo $email; ?></h2>
+    
+    <h2 style="margin-top: 10%;">Redefinir Senha para <?php echo $email; ?></h2>
     <form method="post" action="processa_nova_senha.php">
-        <label for="nova_senha">Nova Senha:</label>
-        <input type="password" id="nova_senha" name="nova_senha" required>
-        <br>
+        <input type="hidden" name="email" value="<?php echo $email; ?>">
+        <label for="nova_senha" style="margin-left: 0%; color:white;" >Nova Senha:</label><br>
+        <input type="password" id="nova_senha" name="nova_senha" placeholder="*****" required>
+        <br><br>
         <input type="submit" value="Redefinir Senha">
     </form>
 </body>

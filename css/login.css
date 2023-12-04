@@ -17,7 +17,7 @@
   }
   
   body{
-    background-color: black;
+    background-color: #111010;
   }
   
   #button1{
@@ -66,4 +66,35 @@ a:link{
   input:valid {
     border-color: #1c3675;
     animation: none;
+  }
+  .button{
+    background-color: #ffffff00;
+    color: #fff;
+    width: 8.5em;
+    height: 2.9em;
+    border: #2B4EAA 0.2em solid;
+    border-radius: 11px;
+   
+    transition: all 0.6s ease;
+  }
+  
+  .button:hover {
+    background-color: #2B4EAA;
+    cursor: pointer;
+  }
+  
+  .button svg {
+    width: 1.6em;
+    margin: -0.2em 0.8em 1em;
+    position: absolute;
+    display: flex;
+    transition: all 0.6s ease;
+  }
+  
+  .button:hover svg {
+    transform: translateX(5px);
+  }
+  
+  .text {
+    margin: 0 1.5em
   }

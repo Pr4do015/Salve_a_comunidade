@@ -6,10 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
 
     try {
-        echo "Nova Senha: " . $novaSenha . "<br>";
-        echo "E-mail: " . $email . "<br>";
-
-        // Atualizar a senha na tabela 'usuarios'
+        // Atualizar a senha na tabela 'usuario'
         $stmt = $conn->prepare("UPDATE usuario SET senha_user = :novaSenha WHERE email = :email");
         $stmt->bindParam(':novaSenha', $novaSenha);
         $stmt->bindParam(':email', $email);

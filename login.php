@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 	<head>
-		<meta charset="utf-8">
+		<meta charset="UTF-8">
 		<!-- Title here -->
 		<title>Login</title>
 			<!-- Description, Keywords and Author -->
@@ -122,7 +122,7 @@ if (isset($_SESSION['dados_usuario'])) {
                                           <div class="form-group">
                                              <!-- Buttons -->
 											 <div class="col-md-8 col-md-offset-3" action="index.php">
-												<button type="submit" value="acessar" name="SendLogin" class="btn btn-danger" id="button1">Login</button>
+												<button type="submit" value="acessar" name="SendLogin" class="button">Login</button>
 											 </div><br>
                        
                                           </div>

@@ -29,16 +29,14 @@ if (!isset($_SESSION['dados_usuario'])) {
     integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT"
     crossorigin="anonymous"></script>
 </head>
-<body class="fundo">
+<body class="fundo"style="margin-left: 30%;margin-top: 7%;" >
     <!-- Exibir os dados do usuário -->
     <div class="logo">
     <a class="" id="salve" href="index.php" >Salve</a>
-    <h1 style="color: white;">Bem-vindo, <?php echo $_SESSION['dados_usuario']['name_user']; ?>, você já realizou login em nosso site</h1>
+    <h1 style="color: white;">Bem-vindo, <?php echo $_SESSION['dados_usuario']['name_user']; ?>, <br>Você já realizou login em nosso site</h1>
     </div>
     <!-- Menu com opção de deslogar -->
     <ul>
-        <li><a href="perfil.php">Item 1</a></li>
-        <li><a href="#">Item 2</a></li>
         <li><a href="logout.php">Deslogar</a></li>
     </ul>
 

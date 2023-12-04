@@ -165,7 +165,7 @@ p{
     margin-bottom: 1rem;
     color: #d7d7d7;
     font-size: 19px;
-    text-align: justify;
+   
     margin-top: 1pc;
 }
 
@@ -178,7 +178,11 @@ p{
 .textorodape{
   color: #ffffffb4;
   font-size: 97%;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Pattaya', sans-serif;
+}
+
+#titulo3{
+  font-family: 'Pattaya', sans-serif;
 }
 
 .mb-3{

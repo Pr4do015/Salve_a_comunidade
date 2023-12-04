@@ -118,7 +118,7 @@ h1{
 .texto-sobre-imagem {
   position: absolute;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 10px;
+  font-size: 11px;
   top: 80%;
   left: 38%;
   transform: translate(-50%, -50%);
@@ -184,4 +184,11 @@ h1{
   height: 509px;
   width: 566px;
 
+}
+#modaltext{
+  font-family: 'Times New Roman', Times, serif;
+}
+#fundofoter{
+  background-color: #111010 !important;
+  color: #d7d7d7 !important;
 }

@@ -3,7 +3,7 @@ require "conexao.php"
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 	<head>
 		<meta charset="utf-8">
 		<!-- Title here -->
@@ -14,10 +14,9 @@ require "conexao.php"
 		<meta name="author" content="ResponsiveWebInc">
 				<meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/register.css" rel="stylesheet">
-		<style>
-      
-
-      </style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
 	</head>
 	<body>
     <?php
@@ -72,7 +71,9 @@ require "conexao.php"
                       
                       
                   <div class="formy well">
-                  <a class="logo">SALVE<br><br></a>
+                  <a class="logo" href="index.php" id="salve">salve <br></a><br>
+                  <hr style="border: 1px solid #2B4EAA; margin-top: -10px; width: 300px;">
+                  <br>
                                   <div class="form">  
                            <!-- Register form (not working)-->
                            <form  method="POST" actions="" class="form-horizontal">
@@ -113,7 +114,7 @@ require "conexao.php"
                                <div class="form-group">
                                  <label class="control-label col-md-3" for="password2">Senha</label>
                                  <div class="col-md-8">
-                                   <input type="password" name="senha_user" class="form-control" id="password2" placeholder="Dixite a senha" required>
+                                   <input type="password" name="senha_user" class="form-control" id="password2" placeholder="Digite a senha" required>
                                  </div>
                                </div>
                                </div><br>
@@ -121,22 +122,22 @@ require "conexao.php"
                                <div class="form-group">
                                   <div class="col-md-8 col-md-offset-3">
                                      <label class="checkbox-inline">
-                                        <input type="checkbox" name="Checkbox" id="inlineCheckbox3" value="agree"> Aceita os termos de acesso?
+                                        <input type="checkbox" name="Checkbox" id="inlineCheckbox3" value="agree" required> Aceita os termos de acesso?
                                      </label>
                                   </div>
                                </div> 
-                               
+                               <br>
                                <!-- Buttons -->
                                <div class="form-actions">
                                   <!-- Buttons -->
-					 <div class="col-md-8 col-md-offset-3">
-						<button type="submit"  value="cadastrar" name="Registrar" class="btn btn-danger">Registrar</button>
-						<button type="reset" class="btn btn-default">Limpar</button>
+					 <div class="col-md-8 col-3">
+						<button type="submit"  value="cadastrar" name="Registrar" class="button">Registrar</button>
+						<button type="reset" class="button">Limpar</button>
 					</div>
                                </div>
                            </form>
 			  <div class="clearfix"></div>
-			  <hr />
+			  
 				<p>Já possui conta? <a href="login.php">Login</a></p>
                          </div> 
                       </div>
