@@ -98,7 +98,7 @@ if (isset($_SESSION['dados_usuario'])) {
                                           
                                             <label class="control-label col-md-3" for="username2">E-mail</label>
                                             <div class="col-md-8">
-                                              <input type="text" name="email" class="form-control" id="username2" placeholder="seuemail@gmail">
+                                              <input type="text" name="email" class="form-control" id="username2" placeholder="seuemail@gmail" autocomplete="username">
         
                                             </div>
                                           </div><br>
@@ -106,7 +106,7 @@ if (isset($_SESSION['dados_usuario'])) {
                                           <div class="form-group">
                                             <label class="control-label col-md-3" for="password2">Senha</label>
                                             <div class="controls col-md-8">
-                                              <input type="password" name="senha_user" class="form-control" id="password2" placeholder="**********">
+                                              <input type="password" name="senha_user" class="form-control" id="password2" placeholder="**********" autocomplete="current-password">
                                             </div>
                                           </div><br>
                                           <!-- Checkbox -->
