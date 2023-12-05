@@ -19,45 +19,42 @@ require "conexao.php"
         <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
 	</head>
 	<body>
-    <?php
-    
+  <?php
+
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $nome = filter_input(INPUT_POST, 'name_user', FILTER_SANITIZE_STRING);
     $sobrenome = filter_input(INPUT_POST, 'sobre_nome', FILTER_SANITIZE_STRING);
     $email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_STRING);
     $telefone = filter_input(INPUT_POST, 'telefone', FILTER_SANITIZE_STRING);
     $senha = filter_input(INPUT_POST, 'senha_user', FILTER_SANITIZE_STRING);
     $reg = filter_input(INPUT_POST, 'Registrar');
-    
+
     $confirme_usuario = $email; // comparando email
     $stmt = $conn->prepare("SELECT email FROM usuario WHERE email = :email");
-    $stmt->bindParam(':email', $confirme_usuario) ;
+    $stmt->bindParam(':email', $confirme_usuario);
     $stmt->execute();
-    
+
     $resultado = $stmt->fetch(PDO::FETCH_ASSOC);
-    
-    if(empty($resultado))
-    {
-      $email_banco = "";
+
+    if (empty($resultado)) {
+        $email_banco = "";
+    } else {
+        $email_banco = $resultado['email'];
     }
-    else
-    {
-      $email_banco = $resultado['email'];
-    }
-    
-  
-    if($email == $email_banco){
-     echo "<script> alert('email já cadastrado! tente outro'); </script>";
-    } 
-    else 
-    {
-      $result_usuario = "INSERT INTO usuario (name_user, sobre_nome, email, telefone, senha_user) 
+
+    if ($email == $email_banco) {
+        echo "<script> alert('Email já cadastrado no SALVE! Use outro ou faça LOGIN.'); </script>";
+    } else {
+        $result_usuario = "INSERT INTO usuario (name_user, sobre_nome, email, telefone, senha_user) 
       VALUES ('$nome', '$sobrenome', '$email', '$telefone', '$senha') ";
-    
-      $resultado_usuario = $conn->query($result_usuario);
-           echo "<script> alert('Registro realizado com sucesso');
-           window.location.href = 'login.php'; </script>";   
+
+        $resultado_usuario = $conn->query($result_usuario);
+        echo "<script> alert('Registro realizado com sucesso');
+           window.location.href = 'login.php'; </script>";
     }
-    ?>  
+}
+?>
     
   <!-- Page content starts -->
 <div class="content"> 
