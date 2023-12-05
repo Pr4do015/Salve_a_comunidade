@@ -3,7 +3,23 @@
 *{
     font-family: 'Pattaya', sans-serif;
     transition: 408ms;
-}
+}/* Estilo padrão para o texto */
+    /* Estilo padrão para o texto */
+    #texto {
+      font-size: 16px; /* Tamanho padrão da fonte */
+      max-width: 100%; /* A largura máxima não ultrapassará a largura do seu contêiner */
+      white-space: nowrap; /* Impede que o texto quebre em várias linhas */
+      overflow: hidden; /* Qualquer texto que não caiba será oculto */
+      text-overflow: ellipsis; /* Adiciona reticências (...) quando o texto ultrapassa a largura do contêiner */
+      word-wrap: break-word; /* Quebra o texto em palavras */
+  }
+
+  /* Estilo para telas menores que 768 pixels (pode ajustar conforme necessário) */
+  @media screen and (max-width: 768px) {
+      #texto {
+          font-size: 14px; /* Reduz o tamanho da fonte para telas menores */
+      }
+  }
 
 
 .fundo{

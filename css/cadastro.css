@@ -45,6 +45,14 @@ animation: shake_541 0.14s 3;
  animation: shake_541 0.14s 3;
   
 }
+
+#inputtel{
+  background: transparent;
+ border-radius: 4px;
+ border: 1px solid #2B4EAA;
+ color: #f9f9f9;
+ animation: shake_541 0.14s 3;
+}
 #inputPassword{
  /* padding: 0 16px;*/
  background: transparent;

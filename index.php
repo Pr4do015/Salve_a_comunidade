@@ -162,7 +162,7 @@ Inspiração para Jovens nas Periferias Alcançarem Objetivos e Quebrarem Barrei
 <!--Termino Sessão projetos--> 
 <hr style="border: 1px solid rgb(1, 146, 38);margin-top: 50px;">
                                     <div class="pessoas">
-                                        <h1>PARTICIPANTES DO SALVE</h1>
+                                        <h1 style="font-family: 'Times New Roman', Times, serif;">IDEALIZADORES DO SALVE</h1>
                                         <br>
                                         <div class="container">
                                           <div class="row">
